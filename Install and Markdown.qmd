@@ -1,0 +1,58 @@
+---
+title: "Quarto"
+subtitle: "Learning using the quarto in python"
+date: "11-11-2011"
+author: "Durjoy Sarker"
+format: html
+toc: true
+---
+
+# Installing quarto and Basic Markdown syntax
+
+## General step
+- install the quarto from browser
+- Add extension with the vs code 
+
+## Basic Markdown 
+### Headings & Text Formatting
+Headings Syntax:
+# Heading 1
+## Heading 2
+### Heading 3
+#### And so on
+
+### Bold & Italic:
+**Nitrogen**, **_Potassium_**
+
+### Lists
+Bullet list:
+- Nitrogen
+- Phosphorus
+- Potassium
+
+### Numbered list:
+1. Test soil
+2. Apply fertilizer
+3. Measure growth
+
+### Links, Images & Code
+#### Link:
+[Google](https://google.com)
+#### Image:
+![Soil Diagram](bon.jpg)
+[^1]
+#### Inline code:
+This is a `{python} print("Python")` code.
+
+
+### Blockquotes & Equations
+#### Blockquote:
+>Soil health is the foundation of crop productivity.
+#### Equations (LaTeX style)
+•	Inline: $Y = a + bX$
+•	Block:
+$$
+Y = a + bX
+$$
+
+[^1]:the picture should be in the folder
