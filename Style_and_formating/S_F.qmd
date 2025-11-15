@@ -1,0 +1,41 @@
+---
+title: "Quarto"
+subtitle: "Some style and function"
+author: "Durjoy Sarker"
+format: html
+toc: true
+bibliography: references.bib
+---
+
+### Adding table citation and imgae from the visual edit in VS code
+
+#### Table
+
+First start the visual editing and then insert the picture or the table as per your need.
+
+| Col1 | Col2 |
+|------|------|
+| null | null |
+| null | null |
+
+#### Reference
+
+Inserting reference by doi
+
+[@asaniczka2025]
+
+### Convert into Jupyter
+
+you can convert this into jupyter notebook if you want the steps are given bellow:
+
+1\. In terminal quarto convert file_name.qmd
+
+### quarto specific
+You could use the quarto default form the documentation or create you own coustom.
+It's not working, I don't know why it isn't working in the file.
+:::{.very red}
+Just some text
+:::
+:::{.layout-ncol="2"}
+how much text you add in this collum this will be in two column.
+:::

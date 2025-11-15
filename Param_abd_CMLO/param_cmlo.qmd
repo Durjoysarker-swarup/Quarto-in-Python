@@ -1,0 +1,12 @@
+---
+title: "Quarto"
+subtitle: "Learning using the quarto in python"
+date: "11-11-2011"
+author: "Durjoy Sarker"
+format: html
+toc: true
+---
+
+```{python}
+print("hello")
+```
