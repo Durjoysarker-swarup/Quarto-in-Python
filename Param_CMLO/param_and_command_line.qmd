@@ -1,0 +1,44 @@
+---
+title: "Quarto"
+Subtitle: "Param and Command line Option"
+author: "Durjoy Sarker"
+format: html
+toc: true
+echo: false
+---
+# Param and CMLO
+
+## Creating parameters
+this is just used to make the code more good and readable.
+```{python}
+#| tags: [parameters] 
+
+name = "durjoy"
+```
+
+## Then calling the parameter
+```{python}
+print(f"my name is {name}")
+```
+
+## echo: false
+1. This syntex used in the yaml to hide the code and just print the result/ out put.
+2. also you can justs show the cell that you want. in the code cell. like:
+```{python}
+#| echo: true
+
+print("this code will show in the rendered file with output")
+```
+
+## Command line code 
+
+### passing parameter
+$quarto render file_name.qmd -P name:Durjoy$
+
+### rederning to other format
+$quarto render file_name.qmd --to pdf$
+
+### modify the yaml
+$quarto render file_name.qmd -M toc:false -M "subtitle:Your New Title"$
+
+
