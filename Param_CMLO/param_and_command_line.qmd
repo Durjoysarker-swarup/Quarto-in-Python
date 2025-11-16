@@ -41,4 +41,5 @@ $quarto render file_name.qmd --to pdf$
 ### modify the yaml
 $quarto render file_name.qmd -M toc:false -M "subtitle:Your New Title"$
 
-
+## Page brake in static document
+${{< pagebreak >>}}$

@@ -1,0 +1,13 @@
+---
+format: dashboard
+title: "Name of the dashboard"
+---
+
+## Row
+1. This is a row
+2. adding stuff to it consider a new column 
+
+
+## Row 
+Hare adding a new row.
+
