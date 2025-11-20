@@ -75,5 +75,12 @@
     "title": "Quarto",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nthe picture should be in the folder↩︎"
+  },
+  {
+    "objectID": "Style_and_formating/S_F.html",
+    "href": "Style_and_formating/S_F.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Adding table citation and imgae from the visual edit in VS code\n\nTable\nFirst start the visual editing and then insert the picture or the table as per your need.\n\n\n\nCol1\nCol2\n\n\n\n\nnull\nnull\n\n\nnull\nnull\n\n\n\n\n\nReference\nInserting reference by doi\n(Asaniczka and themoviedb.org 2025)\n\n\n\nConvert into Jupyter\nyou can convert this into jupyter notebook if you want the steps are given bellow:\n1. In terminal quarto convert file_name.qmd\n\n\nquarto specific\nYou could use the quarto default form the documentation or create you own coustom. It’s not working, I don’t know why it isn’t working in the file. :::{.very red} Just some text ::: :::{.layout-ncol=“2”} how much text you add in this collum this will be in two column. :::\n\n\n\n\n\nReferences\n\nAsaniczka, and themoviedb.org. 2025. “Full TMDB Movies Dataset 2024 (1M Movies).” Kaggle. https://doi.org/10.34740/KAGGLE/DSV/13740647."
   }
 ]
