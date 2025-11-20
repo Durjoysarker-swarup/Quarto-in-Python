@@ -1,8 +1,9 @@
 ---
-title: "Index"
+title: "First page"
 author: Durjoy Sarker
 echo: false
 ---
 
-## Welcome to my site
+# Welcome to my site
+## This is my very first website created using quarto
 For this to run you have to have the index folder with the _quarto.yml.

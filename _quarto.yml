@@ -13,4 +13,9 @@ website:
         href: Setup/Install_and_Markdown.qmd
       - text: Style and formating
         href: Style_and_formating/S_F.qmd
-        
+      - text: RevelJS
+        href: revealjs/revealjs.qmd
+      - text: Dashborad
+        href: dashbord/new_dashbord.qmd
+      - text: Parameter and command line function
+        href: param_CMLO/param_and_command_line.qmd
