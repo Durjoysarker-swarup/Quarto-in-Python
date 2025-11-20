@@ -1,2 +1,16 @@
 project: 
+  type: website
   output-dir: outputs
+
+
+website:
+  title: "First Quarto Website"
+  navbar:
+    left: 
+      - href: index.qmd
+        text: More
+      - text: Setup
+        href: Setup/Install_and_Markdown.qmd
+      - text: Style and formating
+        href: Style_and_formating/S_F.qmd
+        

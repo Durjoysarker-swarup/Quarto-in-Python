@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "Style_and_formating/S_F.html",
+    "href": "Style_and_formating/S_F.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Adding table citation and imgae from the visual edit in VS code\n\nTable\nFirst start the visual editing and then insert the picture or the table as per your need.\n\n\n\nCol1\nCol2\n\n\n\n\nnull\nnull\n\n\nnull\nnull\n\n\n\n\n\nReference\nInserting reference by doi\n(Asaniczka and themoviedb.org 2025)\n\n\n\nConvert into Jupyter\nyou can convert this into jupyter notebook if you want the steps are given bellow:\n1. In terminal quarto convert file_name.qmd\n\n\nquarto specific\nYou could use the quarto default form the documentation or create you own coustom. It’s not working, I don’t know why it isn’t working in the file. :::{.very red} Just some text ::: :::{.layout-ncol=“2”} how much text you add in this collum this will be in two column. :::\n\n\n\n\n\nReferences\n\nAsaniczka, and themoviedb.org. 2025. “Full TMDB Movies Dataset 2024 (1M Movies).” Kaggle. https://doi.org/10.34740/KAGGLE/DSV/13740647."
+  },
+  {
+    "objectID": "revealjs/revealjs.html#slide-section-1",
+    "href": "revealjs/revealjs.html#slide-section-1",
+    "title": "Title of the presentation",
+    "section": "Slide section 1",
+    "text": "Slide section 1"
+  },
+  {
+    "objectID": "revealjs/revealjs.html#slide-section-2",
+    "href": "revealjs/revealjs.html#slide-section-2",
+    "title": "Title of the presentation",
+    "section": "Slide section 2",
+    "text": "Slide section 2\n\nimport random\n\nfor i in range(10):\n    print(random.randint(1,100))\n\n67\n40\n62\n45\n71\n12\n51\n93\n29\n51"
+  },
+  {
+    "objectID": "revealjs/revealjs.html#slide-section-3",
+    "href": "revealjs/revealjs.html#slide-section-3",
+    "title": "Title of the presentation",
+    "section": "Slide section 3",
+    "text": "Slide section 3\nimport random\n\nfor i in range(10):\n    print(random.randint(1,100))"
+  },
+  {
+    "objectID": "revealjs/revealjs.html#incremental-list",
+    "href": "revealjs/revealjs.html#incremental-list",
+    "title": "Title of the presentation",
+    "section": "Incremental list",
+    "text": "Incremental list\n\nshow items one\nat a time\nwith\nincremental list\n\n\nImage\nalso do image which one comes first if you need then find out. It’s a good practice to look on the documentation. you can do bunch of the stuff that quarto maker is not remember the syntex. So find out what you need and work on this."
+  },
+  {
+    "objectID": "revealjs/revealjs.html#image",
+    "href": "revealjs/revealjs.html#image",
+    "title": "Title of the presentation",
+    "section": "Image",
+    "text": "Image\nalso do image which one comes first if you need then find out. It’s a good practice to look on the documentation. you can do bunch of the stuff that quarto maker is not remember the syntex. So find out what you need and work on this."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Index",
+    "section": "",
+    "text": "For this to run you have to have the index folder with the _quarto.yml."
+  },
+  {
+    "objectID": "index.html#welcome-to-my-site",
+    "href": "index.html#welcome-to-my-site",
+    "title": "Index",
+    "section": "",
+    "text": "For this to run you have to have the index folder with the _quarto.yml."
+  },
+  {
+    "objectID": "Param_CMLO/param_and_command_line.html",
+    "href": "Param_CMLO/param_and_command_line.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "this is just used to make the code more good and readable.\n\n\n\n\n\nmy name is durjoy\n\n\n\n\n\n\nThis syntex used in the yaml to hide the code and just print the result/ out put.\nalso you can justs show the cell that you want. in the code cell. like:\n\n\nprint(\"this code will show in the rendered file with output\")\n\nthis code will show in the rendered file with output\n\n\n\n\n\n\n\n\\(quarto render file_name.qmd -P name:Durjoy\\)\n\n\n\n\\(quarto render file_name.qmd --to pdf\\)\n\n\n\n\\(quarto render file_name.qmd -M toc:false -M \"subtitle:Your New Title\"\\)\n\n\n\n\n$"
+  },
+  {
+    "objectID": "Param_CMLO/param_and_command_line.html#creating-parameters",
+    "href": "Param_CMLO/param_and_command_line.html#creating-parameters",
+    "title": "Quarto",
+    "section": "",
+    "text": "this is just used to make the code more good and readable."
+  },
+  {
+    "objectID": "Param_CMLO/param_and_command_line.html#then-calling-the-parameter",
+    "href": "Param_CMLO/param_and_command_line.html#then-calling-the-parameter",
+    "title": "Quarto",
+    "section": "",
+    "text": "my name is durjoy"
+  },
+  {
+    "objectID": "Param_CMLO/param_and_command_line.html#echo-false",
+    "href": "Param_CMLO/param_and_command_line.html#echo-false",
+    "title": "Quarto",
+    "section": "",
+    "text": "This syntex used in the yaml to hide the code and just print the result/ out put.\nalso you can justs show the cell that you want. in the code cell. like:\n\n\nprint(\"this code will show in the rendered file with output\")\n\nthis code will show in the rendered file with output"
+  },
+  {
+    "objectID": "Param_CMLO/param_and_command_line.html#command-line-code",
+    "href": "Param_CMLO/param_and_command_line.html#command-line-code",
+    "title": "Quarto",
+    "section": "",
+    "text": "\\(quarto render file_name.qmd -P name:Durjoy\\)\n\n\n\n\\(quarto render file_name.qmd --to pdf\\)\n\n\n\n\\(quarto render file_name.qmd -M toc:false -M \"subtitle:Your New Title\"\\)"
+  },
+  {
+    "objectID": "Param_CMLO/param_and_command_line.html#page-brake-in-static-document",
+    "href": "Param_CMLO/param_and_command_line.html#page-brake-in-static-document",
+    "title": "Quarto",
+    "section": "",
+    "text": "$"
+  },
+  {
+    "objectID": "Setup/Install_and_Markdown.html",
+    "href": "Setup/Install_and_Markdown.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "install the quarto from browser\nAdd extension with the vs code\n\n\n\n\n\n\nHeadings Syntax: # Heading 1 ## Heading 2 ### Heading 3 #### And so on\n\n\n\nNitrogen, Potassium\n\n\n\nBullet list: - Nitrogen - Phosphorus - Potassium\n\n\n\n\nTest soil\nApply fertilizer\nMeasure growth\n\n\n\n\n\n\nGoogle\n\n\n\n\n\n\nThis is a {python} print(\"Python\") code.\n\n\n\n\n\n\n\nSoil health is the foundation of crop productivity. #### Equations (LaTeX style) • Inline: \\(Y = a + bX\\) • Block: \\[\nY = a + bX\n\\]\n\n\n\n\n\n\n\n\nprint(\"hello\")\n\nhello\n\n\n\n\n\n\nprint(\"hello\")\n\n[1] \"hello\""
+  },
+  {
+    "objectID": "Setup/Install_and_Markdown.html#general-step",
+    "href": "Setup/Install_and_Markdown.html#general-step",
+    "title": "Quarto",
+    "section": "",
+    "text": "install the quarto from browser\nAdd extension with the vs code"
+  },
+  {
+    "objectID": "Setup/Install_and_Markdown.html#basic-markdown",
+    "href": "Setup/Install_and_Markdown.html#basic-markdown",
+    "title": "Quarto",
+    "section": "",
+    "text": "Headings Syntax: # Heading 1 ## Heading 2 ### Heading 3 #### And so on\n\n\n\nNitrogen, Potassium\n\n\n\nBullet list: - Nitrogen - Phosphorus - Potassium\n\n\n\n\nTest soil\nApply fertilizer\nMeasure growth\n\n\n\n\n\n\nGoogle\n\n\n\n\n\n\nThis is a {python} print(\"Python\") code.\n\n\n\n\n\n\n\nSoil health is the foundation of crop productivity. #### Equations (LaTeX style) • Inline: \\(Y = a + bX\\) • Block: \\[\nY = a + bX\n\\]\n\n\n\n\n\n\n\n\nprint(\"hello\")\n\nhello\n\n\n\n\n\n\nprint(\"hello\")\n\n[1] \"hello\""
+  },
+  {
+    "objectID": "Setup/Install_and_Markdown.html#footnotes",
+    "href": "Setup/Install_and_Markdown.html#footnotes",
+    "title": "Quarto",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nthe picture should be in the folder↩︎"
+  }
+]

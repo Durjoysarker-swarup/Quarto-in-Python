@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Index",
+    "section": "",
+    "text": "For this to run you have to have the index folder with the _quarto.yml."
+  },
+  {
+    "objectID": "index.html#welcome-to-my-site",
+    "href": "index.html#welcome-to-my-site",
+    "title": "Index",
+    "section": "",
+    "text": "For this to run you have to have the index folder with the _quarto.yml."
+  },
+  {
+    "objectID": "S_F.html",
+    "href": "S_F.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Adding table citation and imgae from the visual edit in VS code\n\nTable\nFirst start the visual editing and then insert the picture or the table as per your need.\n\n\n\nCol1\nCol2\n\n\n\n\nnull\nnull\n\n\nnull\nnull\n\n\n\n\n\nReference\nInserting reference by doi\n(Asaniczka and themoviedb.org 2025)\n\n\n\nConvert into Jupyter\nyou can convert this into jupyter notebook if you want the steps are given bellow:\n1. In terminal quarto convert file_name.qmd\n\n\nquarto specific\nYou could use the quarto default form the documentation or create you own coustom. It’s not working, I don’t know why it isn’t working in the file. :::{.very red} Just some text ::: :::{.layout-ncol=“2”} how much text you add in this collum this will be in two column. :::\n\n\n\n\n\nReferences\n\nAsaniczka, and themoviedb.org. 2025. “Full TMDB Movies Dataset 2024 (1M Movies).” Kaggle. https://doi.org/10.34740/KAGGLE/DSV/13740647."
+  },
+  {
+    "objectID": "Install_and_Markdown.html",
+    "href": "Install_and_Markdown.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "install the quarto from browser\nAdd extension with the vs code\n\n\n\n\n\n\nHeadings Syntax: # Heading 1 ## Heading 2 ### Heading 3 #### And so on\n\n\n\nNitrogen, Potassium\n\n\n\nBullet list: - Nitrogen - Phosphorus - Potassium\n\n\n\n\nTest soil\nApply fertilizer\nMeasure growth\n\n\n\n\n\n\nGoogle\n\n\n\n\n\n\nThis is a {python} print(\"Python\") code.\n\n\n\n\n\n\n\nSoil health is the foundation of crop productivity. #### Equations (LaTeX style) • Inline: \\(Y = a + bX\\) • Block: \\[\nY = a + bX\n\\]\n\n\n\n\n\n\n\n\nprint(\"hello\")\n\nhello\n\n\n\n\n\n\nprint(\"hello\")\n\n[1] \"hello\""
+  },
+  {
+    "objectID": "Install_and_Markdown.html#general-step",
+    "href": "Install_and_Markdown.html#general-step",
+    "title": "Quarto",
+    "section": "",
+    "text": "install the quarto from browser\nAdd extension with the vs code"
+  },
+  {
+    "objectID": "Install_and_Markdown.html#basic-markdown",
+    "href": "Install_and_Markdown.html#basic-markdown",
+    "title": "Quarto",
+    "section": "",
+    "text": "Headings Syntax: # Heading 1 ## Heading 2 ### Heading 3 #### And so on\n\n\n\nNitrogen, Potassium\n\n\n\nBullet list: - Nitrogen - Phosphorus - Potassium\n\n\n\n\nTest soil\nApply fertilizer\nMeasure growth\n\n\n\n\n\n\nGoogle\n\n\n\n\n\n\nThis is a {python} print(\"Python\") code.\n\n\n\n\n\n\n\nSoil health is the foundation of crop productivity. #### Equations (LaTeX style) • Inline: \\(Y = a + bX\\) • Block: \\[\nY = a + bX\n\\]\n\n\n\n\n\n\n\n\nprint(\"hello\")\n\nhello\n\n\n\n\n\n\nprint(\"hello\")\n\n[1] \"hello\""
+  },
+  {
+    "objectID": "Install_and_Markdown.html#footnotes",
+    "href": "Install_and_Markdown.html#footnotes",
+    "title": "Quarto",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nthe picture should be in the folder↩︎"
+  },
+  {
+    "objectID": "Setup/Install_and_Markdown.html",
+    "href": "Setup/Install_and_Markdown.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "install the quarto from browser\nAdd extension with the vs code\n\n\n\n\n\n\nHeadings Syntax: # Heading 1 ## Heading 2 ### Heading 3 #### And so on\n\n\n\nNitrogen, Potassium\n\n\n\nBullet list: - Nitrogen - Phosphorus - Potassium\n\n\n\n\nTest soil\nApply fertilizer\nMeasure growth\n\n\n\n\n\n\nGoogle\n\n\n\n\n\n\nThis is a {python} print(\"Python\") code.\n\n\n\n\n\n\n\nSoil health is the foundation of crop productivity. #### Equations (LaTeX style) • Inline: \\(Y = a + bX\\) • Block: \\[\nY = a + bX\n\\]\n\n\n\n\n\n\n\n\nprint(\"hello\")\n\nhello\n\n\n\n\n\n\nprint(\"hello\")\n\n[1] \"hello\""
+  },
+  {
+    "objectID": "Setup/Install_and_Markdown.html#general-step",
+    "href": "Setup/Install_and_Markdown.html#general-step",
+    "title": "Quarto",
+    "section": "",
+    "text": "install the quarto from browser\nAdd extension with the vs code"
+  },
+  {
+    "objectID": "Setup/Install_and_Markdown.html#basic-markdown",
+    "href": "Setup/Install_and_Markdown.html#basic-markdown",
+    "title": "Quarto",
+    "section": "",
+    "text": "Headings Syntax: # Heading 1 ## Heading 2 ### Heading 3 #### And so on\n\n\n\nNitrogen, Potassium\n\n\n\nBullet list: - Nitrogen - Phosphorus - Potassium\n\n\n\n\nTest soil\nApply fertilizer\nMeasure growth\n\n\n\n\n\n\nGoogle\n\n\n\n\n\n\nThis is a {python} print(\"Python\") code.\n\n\n\n\n\n\n\nSoil health is the foundation of crop productivity. #### Equations (LaTeX style) • Inline: \\(Y = a + bX\\) • Block: \\[\nY = a + bX\n\\]\n\n\n\n\n\n\n\n\nprint(\"hello\")\n\nhello\n\n\n\n\n\n\nprint(\"hello\")\n\n[1] \"hello\""
+  },
+  {
+    "objectID": "Setup/Install_and_Markdown.html#footnotes",
+    "href": "Setup/Install_and_Markdown.html#footnotes",
+    "title": "Quarto",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nthe picture should be in the folder↩︎"
+  }
+]

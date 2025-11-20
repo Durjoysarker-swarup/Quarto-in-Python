@@ -1,0 +1,8 @@
+---
+title: "Index"
+author: Durjoy Sarker
+echo: false
+---
+
+## Welcome to my site
+For this to run you have to have the index folder with the _quarto.yml.
